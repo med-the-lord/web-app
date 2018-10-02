@@ -1,0 +1,444 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+header {
+    top: 0;
+    margin: 10px;
+    height: 90px;
+    width: 98%;
+    background-color: #808080;
+    list-style-type: none;
+    position: fixed;
+    overflow: hidden;
+    border: 2px solid #e7e7e7;
+}
+
+    header ul {
+        background-color: none;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        padding: 20px 20px;
+    }
+
+h5 {
+    font-family: serif;
+    font-size: 15px;
+    color: darkblue;
+}
+
+#Acadimics {
+    display: none;
+}
+
+#Research {
+    display: none;
+}
+
+#Publication {
+    display: none;
+}
+
+header ul a {
+    font-size: 24;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+    header ul a:hover {
+        color: black;
+        background-color: mediumslateblue;
+    }
+
+header ul li {
+    margin-right: 20px;
+    float: right;
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 30px 16px;
+    text-decoration: none;
+}
+
+#activite {
+    display: none;
+}
+
+.left-logo {
+    margin-left: -19px;
+    margin-top: -18px;
+    width: 250px;
+    height: 100px;
+    background: url(logo-TP.png);
+    background-size: cover;
+}
+
+section {
+    margin-left: 370px;
+    margin-top: 130px;
+    height: auto;
+    width: 145vh;
+    margin-bottom: 10px;
+    display: block;
+    color: whitesmoke;
+    border: 2px solid #e7e7e7;
+    background-color: white;
+}
+
+#teaching {
+    display: block;
+}
+
+nav {
+    display: block;
+    color: whitesmoke;
+    float: left;
+    text-align: left;
+    width: 350px;
+    height: auto;
+    margin-left: 10px;
+    border: 2px solid #e7e7e7;
+    background-color: white;
+}
+
+    nav ul li img {
+        text-decoration: none;
+        margin-left: -20px;
+        height: 300px;
+        width: 300px;
+    }
+
+h1 {
+    text-align: left;
+    display: list-item;
+    color: #757575;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+section h1 {
+    text-align: left;
+    display: list-item;
+    color: darkblue;
+    display: inline-block;
+    margin-bottom: -10px;
+    margin-left: 5px;
+}
+
+section h2 {
+    line-height: 24px;
+    background-color: gainsboro;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    font-size: 18px;
+    box-sizing: border-box;
+    width: auto;
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+    text-align: left;
+    color: blue;
+    padding-left: 8px;
+}
+
+section h3 {
+    font-size: 16px;
+    margin-left: 5px;
+    text-align: left;
+    color: cornflowerblue;
+}
+
+h2 {
+    margin-left: 5px;
+    text-align: left;
+    color: gray;
+}
+
+h3 {
+    margin-left: 5px;
+    text-align: left;
+    color: gray;
+}
+
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: sans-serif;
+    line-height: 25px;
+    text-align: -webkit-match-parent;
+    display: list-item;
+    color: black;
+    font-size: 14px;
+    padding-top: 10px;
+    margin-top: 30px;
+    display: block;
+}
+
+nav ul li a img {
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+footer {
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #808080;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row > .column {
+    padding: 0 8px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* The Close Button */
+.closes {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+    .closes:hover,
+    .closes:focus {
+        color: #999;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+.mySlides {
+    display: none;
+}
+
+.cursor {
+    cursor: pointer
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+img {
+    margin-bottom: -4px;
+}
+
+.caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+}
+
+.demo {
+    opacity: 0.6;
+}
+
+    .active,
+    .demo:hover {
+        opacity: 1;
+    }
+
+img.hover-shadow {
+    transition: 0.3s
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.dropbtn {
+    background-color: grey;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+        .dropdown-content a:hover {
+            background-color: #ddd
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    position: fixed;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: blue;
+}
+
+#myImg1, #myImg3 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+    #myImg1:hover {
+        opacity: 0.7;
+    }
+
+}
+
+.modal1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.Modal.cler {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.closee, .cler, .closer {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.cler {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.closer, .cler, .closee:hover,
+.closer, .cler, .closee:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+modal.close:hover,
+modal.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}

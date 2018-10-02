@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html>
+<head><title>Mme Houda LABIOD</title>
+	<meta charset="utf-8">
+	<link href="Sans titre-2.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<script type="text/javascript">
+		
+function myFunction1() {
+    var x = document.getElementById("language").value;
+	 window.open("Sans titre-1eng.html","_self");
+}
+	     function openteaching() {
+	 document.getElementById("Teaching").style.display = "block";
+	 document.getElementById("Publication").style.display = "none";
+    document.getElementById("Acadimics").style.display = "none";
+       document.getElementById("Research").style.display="none";
+			 document.getElementById("activite").style.display="none";
+}
+		function openpublication() {
+  	 document.getElementById("Teaching").style.display = "none";
+	 document.getElementById("Publication").style.display = "block";
+    document.getElementById("Acadimics").style.display = "none";
+       document.getElementById("Research").style.display="none";
+			document.getElementById("activite").style.display="none";
+}
+		function openacadimics() {
+   	 document.getElementById("Teaching").style.display = "none";
+	 document.getElementById("Publication").style.display = "none";
+    document.getElementById("Acadimics").style.display = "block";
+       document.getElementById("Research").style.display="none";
+			document.getElementById("activite").style.display="none";
+}
+function openrech() {
+	 document.getElementById("Teaching").style.display = "none";
+	 document.getElementById("Publication").style.display = "none";
+    document.getElementById("Acadimics").style.display = "none";
+       document.getElementById("Research").style.display="block";
+	document.getElementById("activite").style.display="none";
+}
+		function openact() {
+	 document.getElementById("Teaching").style.display = "none";
+	 document.getElementById("Publication").style.display = "none";
+    document.getElementById("Acadimics").style.display = "none";
+       document.getElementById("Research").style.display="none";
+			document.getElementById("activite").style.display="block";
+}
+        </script>
+	<body>
+	<header>	<ul style="float: left"><a class="left-logo" href="#"></a></ul>
+			<ul>
+							<li><select id="language" onchange="myFunction1()">
+  <option value="Sans titre-1eng.html">Englais</option>
+  <option value="index.html" selected>Francais</option>
+ 
+</select></li>
+				<li><a href="#" onclick="openpublication()">Publication</a></li>
+				<li><a href="#" onclick="openacadimics()">Académique</a></li>
+				<li><a href="#" onclick="openrech()">Recherche</a></li>
+				<li><div class="dropdown">
+  <button class="dropbtn"><h11>Enseignement</h11></button>
+  <div class="dropdown-content">
+    <a href="#" onclick="openteaching()">Enseignement</a>
+    <a href="#" onclick="openact()">Activités</a>
+  </div>
+</div></li>
+	
+			</ul></header>
+	<nav><ul>
+			<li><img src=houda.png></li>
+			<li><h1>Houda Labiod</h1></li>
+			<li><h2>Professeur & Directeur de Thèse</h2></li>
+			<p><i class="fa fa-home" style="font-size:24px;color:#009688;"></i>&#160;	&#160;	&#160;C238 INFRES Departement</p>
+			<p><i class="fa fa-envelope" style="font-size:24px;color:#009688;"></i>&#160;	&#160;	&#160;houda.labiodtelecom-paristech.fr</p>
+            <p><i class="fa fa-phone" style="font-size:24px;color:#009688;"></i>&#160;	&#160;	&#160;+33 1 45 81 81 61.</p>
+			<li><a href="https://scholar.google.fr/citations?user=Qv8RvcgAAAAJ&hl=fr"><img src="Google-Scholar-logo.png"></a>&#160;<a href="https://fr.linkedin.com/in/houda-labiod-0a408511"><img src="LinkedIn_logo_initials.png"></a></li>
+
+			</ul></nav>
+		<section id="Teaching">
+			<h4><i class="fa fa-pencil-square-o" style="color:#009688;font-size:34px;margin-bottom: 10px; ; border-bottom: double;">&#160;	&#160;	&#160;Enseignement</i></h4>
+	
+
+<h1>Thèmes de recherche et principaux résultats</h1>
+<p>
+Sécurité de bout-en-bout pour les systèmes ITS coopératifs<br>
+Nous avons poursuivi les travaux menés dans la thèse Cifre avec Renault intitulée Securing Future Cooperative ITS Applications dans le cadre des projets ISE et SCOOP@F.<br> Les détails sont donnés dans les sections (Activités à l’Institut VeDeCoM/Activités à l’IRT SystemX)<br>
+
+Dans la thèse en co-tutelle (Telecom ParisTech – NTU(Singapore)) de Heng Chuan Tan qui porte sur les mécanismes de sécurité dans les réseaux véhiculaires maillés, nous avons proposé une solution de gestion de clés lightweight qui consitute une alternative à l’approche qui utilise les certificats avec une architecture IGC (infrastructure de gestion de clés ou PKI (Public Key Infrstructure)).<br> Notre objectif est de diminuer le coût de calcul dans les unités embarquées (dans les véhicules et dans les unités bord de route), de réduire la signalisation des protocoles de communication tout en assurant le niveau de sécurité exigé dans un environnement à grande échelle.<br> Plusieurs soumissions sont en cours (2 revues et 1 conférence).
+</p>
+
+<h3>Coopération réseaux VANET – réseaux cellulaires 4G</h3>
+<p>
+Nous avons poursuivi les travaux de l’année 2013-2014 .<br> Des publications sont en cours de soumission sur une proposition qui optimise le déchargement de cellules 4G dans le cas d’une transmission multi-flux.<br> Nous avons proposé un modèle analytique, nommé FOSAA, qui évalue la capacité d'un réseau véhiculaire à supporter un trafic cellulaire dans un contexte de offload de l'infrastructure cellulaire par le biais des communications V2V (véhicule à véhicule) et I2V (véhicule à infrastructure) opportunistes.<br> FOSAA prend en compte les contraintes relatives à l'existence des liens V2V, I2V; la capacité du canal; l'agrégation; le temps d'activité des nœuds et la saturation du canal.<br> Les simulations ont démontré l'efficacité de FOSAA à sélectionner le trafic multi-flux adéquat à offloader.
+</p>
+<h3>Modélisation de la coopération au moyen de la théorie de jeux</h3>
+<p>
+Nous avons étudié l’utilisation de l’approche EGT pour adjuster le nombre de noeuds relayeurs afin de disséminer l’information dans un réseau ad hoc véhiculaire en optimisant le taux de dissémination et l’utilisation de la bande passante.<br> En nous basant sur nos travaux antérieurs publiés dans la conférence IEEE ICC2014, nous avons étendu le travail.<br> Deux publications ont été soumises (un article soumis à IEEE VTC’16 et un article sousmis au journal IEEE Transactions on Vehicular Technology (deuxième ressoumission à la suite de corrections) .
+</p>
+			
+<h2>Activités à l’Institut VeDeCoM/Activités à l’IRT SystemX</h2>
+
+<h3>•	Projet ELA, Tâche sécurité numérique (avec Renault, PSA, CEA)</h3>
+<p>J’ai du cessé mon activité au sein du projet ELA fin Novembre 2014 pour me consacrer à mes travaux dans le projet ISE.<br> Un article portant sur l’analyse de risque réalisée a été publié [1] (voir section 7.3).</p>
+
+<h3>•	Projet ISE, un projet avec Renault et PSA</h3>
+<p>Le projet ISE a pour objectif d’apporter les briques de sécurité nécessaires au déploiement du système de sécurité pour les systèmes ITS coopératifs.<br> Telecom ParisTech participe aux 4 tâches du projet et je suis leader de la tâche 1 Analyse des applications ITS, analyse de risques et solutions de sécurité E2E.<br> Je me charge de faire la liaison entre les projets ISE et SCOOP@F.<br> Je serai amenée, au courant de l’année 2016, à contribuer à la mise en place de la coopération avec l’Institut VeDeCoM.</p>
+
+<h1>Collaborations internationales</h1>
+			<p>Avec le Professeur Ian Aykildiz, Ken Byers Chair Professeur à l’Université Goergia Institute of Technology, Directeur du Laboratoire Broadband Wireless Networking Lab, que j’ai invité l’année dernière, nous avons collaboré sur le thème des réseaux coopératifs sans fil, deux publications ont été soumises (voir section 7.3).<br>
+Avec Sherali Zeadally, Professeur associé (Associate Professor Tenured) à l’Université de Kentucky Etats-Unis, nous avons publié un article dans le journal Ad hoc Networks Journal .
+
+</p>
+<h2>Participation au montage d’un GT DigiCosme sur le thème des réseaux sans fil</h2>
+			<p>J’ai participé au montage d’un groupe de travail "Performances, QoS et gestion de ressources des réseaux sans fil dynamiques".<br> La thématique de ce groupe de travail s’inscrit dans l’axe ComEx du Labex DigiCosme.<br> Il se focalise sur les performances des réseaux sans fil, sur l'analyse de la QoS et la gestion de ressources dans le cas des réseaux dynamiques tels que les réseaux ad hoc, les réseaux mesh, les réseaux de capteurs, les réseaux hétérogènes, les réseaux véhiculaires, le Wireless-SDN. <br>Le but de ce groupe de travail est d'être un lieu d'échanges sur cette thématique à travers la tenue de séminaires mensuels faisant intervenir à la fois les collègues du groupe et de leurs équipes ainsi que quelques chercheurs invités extérieurs.<br> Le groupe est financé par Digicosme pour une durée de 2 années et prévoit la tenue de 8 séminaires par an.<br> Il est constitué par des chercheurs de: LTCI, Samovar, Prism, LRI, CEA, INRIA, Supélec.</p>
+<h1>Activités d’animation et de valorisation de la recherche </h1>
+
+<h2>Contrats de recherche</h2>
+
+<h3>SCOOP@F (2014-2016)</h3>
+			<p>
+SCOOP@F est un projet national très important financé par la Commission Européenne (budget: 20 Millions d’Euros) et piloté par le ministère MEDDE/DGITM.<br> C’est le premier projet de déploiement pilote des systèmes de transport intelligents coopératifs (ITS coopératifs) en France.<br> C’est un projet de déploiement à grande échelle (3000 véhicules et 2000 km de routes) le plus important en Europe.</p>
+
+<h3>Activité au sein de la Commission européene</h3>
+			<p>
+La Commission européenne, très motrice, a mis en place des financements ainsi qu’une plateforme européenne pour les systèmes ITS coopératifs.<br> Je participe au groupe de travail WG5 de la plateforme europénne C-ITS sur la sécurité et la certification depuis Avril 2015.<br> Les travaux dans ce groupe ont des interactions fortes avec le groupe d’Amsterdam et également avec le groupe WG5 de l’ETSI TC ITS et le consortium C2C.
+			</p>
+<h3>Développement d’une plateforme de test Sécurité ITS</h3>
+			<p>
+Le groupe SR a démarré en Juin le projet de développement une plateforme pour valider les mécanismes de sécurité pour les systèmes ITS coopératifs.<br> Il s’agit d’une plateforme qui a pour but de pouvoir réaliser soit des tests sur table avec des ordinateurs ou bien avec des équipements ITS (OBU, RSU). <br>Cette plateforme comprend une architecture PKI.<br> Nous validerons dans un premier temps la transmission de messages sécurisés de quelques cas d’usage specifiés pour la vague 1 de SCOOP@F.</p>
+
+<h3>SCOOP@F (2016-2018)</h3>
+			<p>
+J’ai travaillé avec les autres partenaires du projet SCOOP@F pour déposer en Mars 2015 un dossier de demande de subvention pour une extension du projet pour la période 2016-2018 dans le cadre de l’appel à projets de la CE « Mécanisme d’Interconnexion pour l’Europe ».<br> Nous avons rédigé l’annexe technique.<br> Je serai responsable de toutes les activités liées au système de sécurité.<br> Telecom ParisTech travaillera en partenariat avec OpenTrust, Telecom Bretagne et Mines ParisTech.<br> Telecom ParisTech collaborera avec Orange sur le thème des communications hybrides (cellulaire (3G/4G), ITS-G5).
+
+			</p>
+<h3>FUI16 LCI4D (2014-2017)</h3>
+			<p>
+Je m’intéresse au routage coopératif multichemin avec des interfaces sans fil hétérogènes (Wi-Fi, super Wi-Fi(WS), LTE relai) en prenant en compte des contraintes sur la capacité, la disponibilité et l’énergie.<br> Les premiers résultats de ces travaux vont être soumis à la conférence IEEE ICC 2016.<br>
+
+
+Participation au GT DigiCosme "Performances, QoS et gestion de ressources des réseaux sans fil dynamiques" avec mes collègues chercheurs de: LTCI, Samovar, Prism, LRI, CEA, INRIA, Supélec.
+			</p>
+<h3>Activités de standardisation</h3>
+			<p>
+Avec Renault, nous avons rédigé un deuxième draft IETF qui a étendu le travail réalisé l’année dernière sur l’extension du protocole TLS pour supporter deux nouveaux types de certificats utilisés dans les systèmes ITS coopératifs qui sont les certificats ETSI et les certificats IEEE 1609.2 (voir section 3.2.7).<br> Avec Renault, notre objectif est de démarrer une activité poussée sur le protocole TLS dans les organismes de normalisation ETSI et IETF.<br> Ces travaux sont menés avec mon collègue Ahmed Sehrouchni rédacteur du RFC 4279 « Pre-shared key ciphersuites for transport layer security TLS ».<br>
+
+Par ailleurs, l’activité que j’ai menée dans le projet SCOOP@F sur des questions non encore résolues en terme de standardisation (PKI, stratégie de changement de pseudonymes, acheminement des requêtes PKI, annonce de services, contrôle d’accès aux services, acheminement des Logs) a bouti à des propositions pertinentes qui ont suscité un grand intérêt de la part des instances de normalisation.<br> Avec Renault et PSA, Telecom ParisTech a pour objectif d’enclencher les actions nécessaires auprès des instances de standardisation concernées (ETSI WG2, ETSI WG5, C2C) et des groupes de travail (Amsterdam Group, WG5- WG6-WG7 de Plateforme C-ITS).
+
+			</p>
+
+<h3>SCOOP@F (2014-2018)</h3>
+			<p>
+SCOOP@F est un projet national très important financé par la commission Européenne (budget: 20 Millions d’Euros) et piloté par le ministère MEDDE/DGITM.<br> C’est le premier projet de déploiement pilote des systèmes de transport intelligents coopératifs (ITS coopératifs) en France.<br> Ces systèmes sont basés sur les communications et le partage d’informations entre véhicules, infrastructure routière et infrastructure de communication en vue d’offrir des services qui améliorent la sécurité et le confort des usagers.<br> Le fonctionnement général des ITS coopératifs qui seront testés dans SCOOP@F est illustré par le schéma ci-dessous :<br>
+ <img src="ci%20dessous.png">
+</p>
+<h3>Les objectifs du projet SCOOP@F sont :</h3>
+			<p>
+•	Tester le déploiement des premiers systèmes ITS coopératifs.<br>
+•	Tester un système de communication hybride (Wi-Fi/G5 et cellulaire 3G).<br>
+•	Tester un déploiement à grande échelle : SCOOP@F doit permettre de tester à grande échelle (plus de 2000 km de routes et rues, plus de 100 unités bord de route, 2000 véhicules) un nombre de services d’information pour les usagers des transports du quotidien et faciliter les mobilités d’aujourd’hui et de demain.<br>
+•	Tester les services sur plusieurs régions (IDF, Bretagne, Corridor Est, Aquitaine-Bordeaux et Isère).<br>
+•	Valider les normes, les dispositifs de sécurité et l'architecture de gouvernance des nouveaux services.<br>
+•	Assurer une interopérabilité avec les autres projets de déploiement pilotes en Europe (Autriche, Allemagne).<br>
+</p>
+<h3>Les partenaires de SCOOP@F sont :</h3>
+			<p>
+•	Le ministère de l’écologie, du développement durable et de l’énergie - Direction générale des infrastructures, des transports et de la mer (DGITM)<br>
+•	Des collectivités locales (Communauté Urbaine de Bordeaux, Conseils généraux des Côtes d’Armor, du Finistère, d’Ille et Vilaine, de l’Isère, Conseil régional de Bretagne, St Brieuc) ou leurs représentants (ITS Bretagne, TOPOS)<br>
+•	Des gestionnaires du réseau routier national (DIR Atlantique, DIR Ile de France, DIR Ouest, SANEF)<br>
+•	Des constructeurs automobiles (PSA, Renault, Renault Trucks)<br>
+•	Des centres d’études, universités et instituts de recherche (centre d’études et d’expertise sur les risques, l’environnement, la mobilité et l’aménagement (CEREMA), Telecom ParisTech, institut français des sciences et technologies des transports (IFSTTAR), institut de l’aménagement et des réseaux, LAB, Université de Reims).<br>
+
+Une activité très importante est au cœur du projet, il s’agit de la sécurité du système global.<br> C’est une activité transversale qui inclut trois tâches : spécification du système de sécurité, développement du système de sécurité et validation du système de sécurité.<br> Je suis leader de cette activité dans laquelle sont impliqués mes collègues du groupe SR Pascal Urien et Ahmed Sehrouchni.
+</p>
+
+<h3>FUI16 LCI4D (2014-2017)</h3>
+			<p>
+LCI4D (Infrastructure Low Cost pour le Développement des pays émergents) a démarré en Janvier 2014. <br>. Les partenaires de ce projet sont : Orange Labs (chef de file), Alcatel Lucent Bell Labs France, SILICOM, Green Communications, Bluwan, Institut Mines Télécom, CNRS L2S Supelec.<br> Le coût total du projet est 4006k€.<br> Le projet a pour but de développer une architecture composée de petites cellules 3G/4G/Wi-Fi gérées par un opérateur virtuel d’accès.<br> Marceau Coupechoux (groupe RMS, TPT) et moi-même avons participé au montage de ce projet.<br> Je m’intéresse au routage coopératif multichemin avec des interfaces sans fil hétérogènes (Wi-Fi, super Wi-Fi(WS), LTE relai) en prenant en compte des contraintes sur la capacité, la disponibilité et l’énergie.
+</p>
+		</section>
+		<section id="activite">
+			<h4><i class="fa fa-pencil-square-o" style="color:#009688;font-size:34px;margin-bottom: 10px; ; border-bottom: double;">&#160;	&#160;	&#160;Activités d’enseignement.</i></h4>
+			
+
+	<h1>Point de vue général et pédagogie:</h1>
+
+<p>
+Depuis mon recrutement à Telecom ParisTech, j’ai assuré 3 types d’activités :<br>
+-	des enseignements réseau qui s’inscrivent dans deux cadres : en formation initiale et en formation continue.<br> Certains enseignements ont disparu de par les réformes d’évolution qui ont eu lieu pour donner naissance à de nouveaux enseignements, d’autres ont subi une évolution aussi bien dans la forme que dans le contenu.<br>
+-	une activité d’encadrement diversifiée et intense<br>
+-	responsabilités d’unités d’enseignements et de mastères spécialisés et de coordination des stages<br>
+-	contribution à la réflexion au sein de groupes de travail au niveau de mon département sur l’évolution de l’enseignement et sa restructuration.<br>
+		</p>	
+<h2>Formation initiale.</h2>
+<h3>Enseignement:</h3>
+<p>Je participe actuellement aux unités d’enseignements suivantes : RES340, RES723, RES780, RES781, INF220, INF944, COM942.</p>
+
+<h2>Formation continue.</h2>
+
+
+<h3>Responsabilités:</h3>
+			<p>
+-	Je suis coordinatrice de la filière Services et Applications depuis 2011.<br>
+-	Je suis responsable du mastère spécialisé MS SSIR (Sécurité des systèmes informatiques et des réseaux) depuis 2010.<br>
+-	Je suis co-responsable du mastère spécialisé Executive MS ATOMS (Architecte télécom   orienté multiservices) depuis 2011 avec O. Jelassi.<br>
+-	Je suis membre du comité de pilotage du MS ATOMS avec A. Riesen, R. Joly, N. Simoni O. Jelassi, Rozenn Cochennec et Marc Lauté depuis 2011.<br>
+-	Je suis membre du conseil de la formation continue depuis 2011.<br>
+-	Je suis coordinatrice de stages inter et intra.<br>
+</p>
+<h2>Enseignement</h2>
+<p>
+			J’ai coordonné des sessions de formation continue qui sont en parfaite adéquation avec mes enseignements en formation initiale et/ou avec mes domaines de recherche en l’occurrence sur les réseaux sans fil.<br> 
+Je participe au CFC (conseil de la formation continue) qui réunit les responsables des filières, les responsables du catalogue et des représentants d’entreprises clientes. <br>En 2011, j’ai contribué avec Nathalie Cerre à intégrer dans le catalogue 2012 deux nouveaux stages : un sur M2M et un sur la technologie NFC.
+
+</p>
+<h1>1)	Mastère ATOMS</h1>
+
+<h1>Enseignements à l’extérieur de l’école</h1>
+			<p>
+-	ESIEE Amiens – Présentation des systèmes radio-mobiles et GSM (1 journée par an pendant deux ans)<br>
+-	MSc MSI – Module réseaux & Télécoms - Ponts et chaussées (1/2 journée par an pendant deux ans)<br>
+-	DESS EVRY – responsable du module Réseaux – 40 heures par an (1 fois)
+</p>
+
+<h1>Encadrement</h1>
+
+<h2>Encadrement doctoral:</h2>
+<h3>Thèses soutenues</h3>
+<p>
+REN Meng Ying, Clustering and dissemination in future cooperative ITS, Thèse financée par CSC (China scholarship council), en co-direction avec Véronique Vecque (Supélec/Paris-Sud) et Lyes Khoukhi (UTT), Début : Novembre 2014, Fin : Novembre 2017, taux d’encadrement 35%.<br>
+
+Heng Chuan Tan, Design and Validation of Security Protocols in Hybrid Wireless Mesh Networks, Thèse ParisTech en co-tutelle avec NTU (Singapore), en co-direction avec Maode Ma (NTU, Electrical and Electronic Engineering Department) et Peter Han Joo Chong (NTU, Electrical and Electronic Engineering Department), Début : 9 Janvier 2012, Fin : 8 Janvier 2016, taux d’encadrement 50%.<br>
+
+
+Rim Moalla, Securing future cooperative ITS applications, thèse soutenue le 29 Septembre 2014, Thèse Cifre Renault, en co-direction avec Noémie Simoni (Telecom ParisTech, Département Infres) et Brigitte Lonc (Renault), taux d’encadrement 50%.<br>
+Rim Moalla est recrutée chez Renault.<br>
+
+Ghayet El Mouna Zhioua, Coopération VANET-Infrastructure cellulaire 4G : Qualité de service et Performances, thèse soutenue le 30 Mai 2014, Thèse en co-tutelle, en co-direction avec Nabil Tabbane et Sami Tabbane de Sup’Com, taux d’encadrement 50%.<br>
+Ghayet el Mouna Zhiou a été lauréate du 3ème prix de la meilleure thèse de l'EDTIC 2014 à Sup’Com, Tunis.<br>
+Ghayet El Mouna Zhioua est actuellement Maître assistante à Sup’Com en attendant d’accéder au poste de Maître de Conférences à Sup’Com.<br>
+
+David Bertrand Fotue Fotso, Data Aggregation and Routing in Wireless Mesh Sensor Networks, thèse soutenue le 04 Octobre 2013, thèse en co-tutelle avec l’Université de Luxembourg/ Centre SnT, en co-direction avec Thomas Engel, taux d’encadrement: 95 %.<br>
+David Fotue est rentré au Cameroun.<br>
+
+Nitin Maslekar, Adaptive Traffic Signal Control System Based on Inter-Vehicular Communication, thèse soutenue le 02 Décembre 2011, en co-direction avec Joseph Mouzna & Mounir Boussedjra (ESIGELEC, IRSEEM), taux d’encadrement 40%.<br>
+Nitin Maslekar est actuellement Research Scientist au sein de Intelligent Transportation System Group à NEC Europe – Division Network Research – Heidelberg- Allemagne.<br>
+
+Fedoua Didi, Le support de la Qualité de Service dans les réseaux locaux sans fil de type IEEE 802.11, thèse soutenue le 05 Janvier 2010, en co-direction avec M. Feham (Université Abou Bakr Belkaid, Tlemcen, Algérie), taux d’encadrement 100%.<br>
+Fedoua Didi est actuellement Maître de Conférences à la Faculté des Sciences de l’Ingénieur rattachée au Département de Télécommunications, Tlemcen, Algérie.<br>
+
+Salma Ktari, Interconnexion et routage dans les systèmes pair à pair, thèse soutenue le 14 Décembre 2009, en co-direction avec Artur Hecker (Telecom ParisTech, département Infres), taux d’encadrement 40%.<br>
+Salma Ktari est actuellement Maître de Conférences à Sup’Com, Tunisie.<br>
+
+Abd-Al Basset Al Mamou, Structured Routing and Performance Evaluation of Routing Protocols in Wireless Sensor Networks, thèse soutenue le 18 Décembre 2009, en co-direction avec Jochen Schiller (Institut für Informatik, Freie Universität Berlin–Allemagne), thèse en co-tutelle, taux d’encadrement 50%.<br>
+Abd-Al Basset Al Mamou est retourné en Syrie.<br>
+
+Vincent Toubiana, Routage réactif sécurisé dans les réseaux ad hoc, thèse soutenue le 09 Décembre 2008, taux d’encadrement 100%.<br>
+Vincent Toubiana, à l’issue d’un postdoc à l’université de New York, il a rejoint Alcatel-Lucent Bell Labs où il a occupé le poste d’ingénieur de recherche pour rejoindre en Mars 2013 la CNIL en tant que IT Expert.<br>
+
+Hai Lin, Handover optimization and resource reservation in IP-based mobile networks, thèse soutenue le 10 Décembre 2008, taux d’encadrement 100%.
+Hai Lin, à la suite d’un postdoc à Orange Labs, il a rejoint ZTE France où il a occupé le poste d’architecte système. Depuis 2012, il est Maître de Conférences à l’Université Wuhan en Chine.<br>
+
+Christian Tchepnda, Authentification dans les réseaux vahiculaires opérés, thèse soutenue le 18 Décembre 2008, en co-direction avec Hassnaa Moustafa (Orange Labs), financement Cifre Orange Labs, taux d’encadrement 35%.<br>
+Christian Tchepnda est Responsable du pôle Etude Ingénierie et MOE Solutions Réseaux à Orange France.
+<br>
+Miguel Garcia de la Fuente, A new forwarding paradigm for mobile and vehicular ad hoc networks, thèse soutenue en Octobre 2007, (european awarded doctoral thesis) à l’Université du pays Basque en collaboration avec Robotiker -Tecnalia, Espagne, taux d’encadrement 100%.<br>
+
+Artur Hecker, On Logical Network Access Control and the Associated User and Network Management in Future Heterogeneous 4G Wireless Systems, thèse soutenue le 16 Mars 2005, taux d’encadrement 100%.<br>
+Artur Hecker est Maître de Conférences à Telecom ParisTech actuellement en CNR à Huawei (Allemagne).<br>
+Emilio Calvanese Strinati, Radio link control for improving the QoS of wireless packet transmission, thèse soutenue le 05 Décembre 2005, en co-direction avec Joseph Boutros (Telecom ParisTech, Département Comelec), Sébastien Simoens (Motorola), Thèse Cifre Motorola, taux d’encadrement 10%.<br>
+Emilio Strinati est actuellement Director of Telecommunicatons and Smart Devices Strategic Programs au CEA LETI.<br>
+
+Hasnaa Moustafa, Unicast and multicast routing in mobile ad hoc networks, thèse soutenue le 21 Décembre 2004, taux d’encadrement 100%.<br>
+Hasnaa Moustafa est Ingénieur R&D & Project Manager à Orange Labs actuellement à Intel Labs (USA). <br>
+Hasnaa Moustafa a obtenu son HDR en 2010.
+			</p>
+			<h2>Encadrement doctoral à Eurécom</h2>
+<p>
+J’ai participé à l’encadrement de travaux de deux thésards pendant mon séjour à Eurécom au sein de l’unité communications mobiles.<br> J’ai participé à l’encadrement des travaux de Neda Nikaein sur la modélisation des canaux sans fil à deux états et à plusieurs états, le thème de sa thèse a porté sur les mécanismes de contrôle de qualité de service dans les réseaux d’accès IP sans fil, la thèse a été soutenue le 24 Octobre 2000, directeur de thèse C.<br> Bonnet, Durant la période Février 1999 - Octobre 2000, j’ai participé à l’encadrement de Karima Boudaoud durant la phase de début de sa thèse, Détection d’intrusion : une nouvelle approche par systèmes multi-agents, thèse soutenue en 2000, directeur de thèse Jacques Labetoulle.
+</p>
+<h2>Encadrement postdoctoral</h2>
+<p>
+Jun Zhang, thème : Cooperation Optimized Algorithm Design for Data Delivery in VANETs using Evolutionary Game Theory, co-encadré avec Vincent Gauthier et Hossam Afifi de Telecom SudParis, Période: Avril 2013- Novembre 2013 étendu à Avril 2016. Jun Zhang a candidaté au concours CR1/section6 CNRS en 2014. <br>
+
+Abhik Banerjee, thème : Evolutionary game theory and information dissemination in vehicular networks, co-encadré avec  Vincent Gauthier et Hossam Afifi de Telecom SudParis, Période: Février 2012- Août 2012.<br>
+Abhik Banerjee a rejoint Samsung India Software Operations en Inde en tant que Chief Engineer.<br>
+
+Ahmad Ahmad, thème : Modélisation et évaluation de performances de mécanismes hybrides ARQ pour les réseaux sans fil, Période: Mars 2010 - Août 2010
+Ahmad Ahmad a du interrompre son postdoc à cause d’un retour en Syrie pour des raisons familiales.<br> Il est actuellement en poste au ministère de l'enseignement supérieur en Syrie. <br>
+
+Nedal Ababneh, thème : Nouvelle approche de routage pour les réseaux véhiculaires, Période: Mars 2009-Mars 2010.<br>
+Nedal Ababneh a rejoint WiSAR lab, Department of Electronics and Mechanical engineering, Letterkenny Institute of Technology (LyIT) en Irlande pour effectuer un autre Postdoc.
+</p>
+<h2>Chercheurs invités/ingénieurs de recherche</h2>
+<p>
+Dr. Huei-Ru Tseng, Chercheur à Industrial Technology Research Institute (ITRI) à Information and Communications Research Laboratories Telematics & Vehicular Control System Division, Connected Vehicle Department à Taiwan, Période: Juillet 2014- Septembre 2014 (2 mois), bourse Observational Research Scholarship.<br>
+
+Prof. Ian Aykildiz, Ken Byers Chair Professeur à l’Université Goergia Institute of Technology, Directeur du Laboratoire Broadband Wireless Networking Lab, Période: Juin 2013 – Juillet 2013 (1 mois).<br>
+Prof. Sherali Zeadally, Professeur associé (Associate Professor Tenured) à l’Université de Kentucky (Etats-Unis), Période: Juillet 2013 (2 semaines).
+<br>
+Prof. Azzedine Boukerche, Professeur à l’Université d’Ottawa, Directeur du Laboratoire PARADISE, Période: Novembre 2009 – Décembre 2009 (1 mois et demi).
+<br>
+Imran Khan, Implementation of a mobility management mechanism for Vehicular Ad hoc Networks and designed simulation scenarios for the performance evaluation of SiFT trajectory based routing protocol using SUMO and NS2, Période: Avril 2010-Juillet-Mars 2011.<br>
+
+Michèle Nogueira Lima , Période: Octobre 2009–Novembre 2009 (2 mois).</p>
+
+<h2>Encadrement de stages master (master recherche M2),DEA, PFE</h2> <br><br>
+	
+		<img id="myImg3" src="Capture.JPG" alt="" width="300" height="200">
+
+<!-- The Modal -->
+<div id="myModal1" class="modal">
+  <span class="closer">&times;</span>
+  <img class="modal-content" id="img1">
+  <div id="caption1"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal1');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg3');
+var modalImg = document.getElementById("img1");
+var captionText = document.getElementById("caption1");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+		
+	<img id="myImg1" src="Capture2.JPG" alt="" width="300" height="200">
+
+<!-- The Modal -->
+<div id="myModal2" class="modal">
+  <span class="closee">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal2');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg1');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var spanx = document.getElementsByClassName("closee")[0];
+
+// When the user clicks on <span> (x), close the modal
+spanx.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+		
+
+		</section>
+	    <section id="Acadimics">
+			<h4><i class="fa fa-user" style="font-size:34px;color:#009688;margin-bottom: 10px; ; border-bottom: double;">&#160;	&#160;	&#160;Académiques</i><br></h4>
+<h1>Expertise</h1>
+<p>
+Expertise auprès du plan NFI véhicule autonome
+Membre du groupe de travail WG5 de la plateforme européenne C-ITS
+
+Expertise auprès de l’AERES (Agence d’Evaluation de la Recherche et de l’Enseignement Supérieur)
+
+Expertise auprès de l’ANR (Agence Nationale de la Recherche)
+
+Expertise auprès de l’Institut Mines-Telecom
+
+Membre de l’équipe ParisTech VeDeCoM
+
+Membre de l’Advisory board du projet européeen EU FP7 PRESERVE, 2012.
+
+</p>
+
+<h1>Participation à des jurys de thèse, évaluation de dossiers maj</h1>
+
+<h2>	Rapporteur de thèse de doctorat</h2>
+<p>o	Thèse de Abdelbasset Trad, Déploiement à grande échelle de la voix sur IP dans des environnements hétérogènes, Université de Nice, Juin 2006.<br>
+o	Thèse de Rachid Zagrouba, Contrôle de la mobilité et de la QoS dans un réseau cellulaire tout IP, Université de Rennes- ENST Bretagne, 2007.<br>
+o	Thèse de GuoZhi Wei, Optimisation du handover avec la méthode E-HCF, Université de Paris 12, 2008.<br>
+o	Thèse de Tinku Mohamed Rasheed, Architectures and protocols for supporting quality of service routing in large scale mobile multi-hop wireless networks, Université de Paris-Sud, 2008.<br>
+o	Thèse de Amamra, Techniques d’estimation de la bande passante disponible de réseaux sans fil, Université de Blaise Pascal – Clermont Ferrand II, Novembre 2008.<br>
+o	Thèse de Nada Chendeb Taher, Modélisation analytique et contrôle d’admission dans les réseaux 802.11e pour une maîtrise de la qualité de service, Université d’Evry val d’Essonne, Mars 2009.<br>
+o	Thèse de Salim Benayoune, Mécanismes d’adaptation et de contrôle d’erreur pour la transmission des flux vidéo H.264/AVC sur le réseau UMTS/HSDPA, Université Paris 13, Juin 2009.<br>
+o	Thèse de Sylvie Laniepce, Routage par la disponibilité dans les réseaux ad hoc hybrides, Université de Technologie de Compiègne, Juillet 2009.<br>
+o	Thèse de Rahim Kacimi, Techniques de conservation d’énergie pour les réseaux de capteurs sans fil, Université de Toulouse, Septembre 2009.<br>
+o	Thèse de Cizeron, Routage multichemin et codage à description multiple dans les réseaux ad hoc, Université de Nantes, Septembre 2009.<br>
+o	Thèse de Yasser Toor, Design and optimization of broadcast and MAC protocols for VANETs, Université Paris 6, Novembre 2009.<br>
+o	Thèse de Carlos Giraldo Rodriguez, MANET routing assisted by satellites, Télécom Bretagne/UBS, 2010.<br>
+o	Thèse de Aurélien Jacquot, Supervision de réseaux d’objets intelligents communicants sans fil, Université Blaise Pascal–Clermont Ferrand II, Février 2010.<br>
+o	Thèse de Florent Kaisser, Communications dans les réseaux fortement dynamiques, Université Paris-Sud, Juin 2010.<br>
+o	Thèse de Dominique Pichon, Architectures pour la fourniture de services multimédias dans un contexte de mobilité de session inter-réseaux et inter-terminaux, Telecom Bretagne, 2009.<br>
+o	Thèse de Claire Sondès Larafa, Services AAA dans les réseaux ad hoc mobiles, Télécom SudParis, Octobre 2011.<br>
+o	Thèse de Xunxing Diao, A resource-aware embedded communication system for highly dynamic networks, Université Blaise Pascal–Clermont Ferrand II, 2011.<br>
+o	Thèse de Nadia Brahmi, Contributions dans les réseaux véhiculaires : routage géographique et localisation, Université de Rouen, Juin 2011.
+o	Thèse de Simon Odou, Optimisation de l’utilisation de la bande passante dans les réseaux multi-sauts sans fil, Université Paris-Sud, Novembre 2010.<br>
+o	Thèse de Inès Ben Salem Aissa, Optimisation de l’utilisation des ressources spectrales par la technologie de radio cognitive, l’Ecole Supérieure des Communications de Tunis, 2012.<br>
+o	Thèse de Joël Penhoat, Méthode hiérarchisée et distribuée de sélection d’un réseau radio et d’un mode de transmission, préparée à Orange Labs Lannion, Université de Rennes I, Septembre 2012.<br>
+o	Thèse de Sara Medlej, Scalable trajectory approach to ensure determinstic guarantees in large networks,  Université Paris-Sud, Septembre 2013.<br>
+o	Thèse de Hong-Ling Shi, Development of an energy efficient, robust and modular multicore wireless sensor network, Université de Clermont Ferrand II, Janvier 2014.<br>
+o	Thèse de Sara Mehar, Le véhicule comme source et consommateur d’informations : collecte, dissémination et traitement de données pour une mobilité durable, Université de Bourgogne, Décembre 2014.<br>
+o	Thèse de Yibo Chen, Routing algorithm dedicated to environmental data collection: precision agriculture, Université de Clermont Ferrand II, Mai 2015.<br>
+			</p>
+•	Examinateur de thèse de doctorat
+			<P>
+o	Thèse de Rima Kilany, Conception, implémentation et simulation d’un réseau actif ouvert et contrôlable, ENST, 2003.<br>
+o	Thèse de Nicolas Chevrollier, Coexsitence and call admission control in heterogeneous wireless environment, INT, 2006.<br>
+o	Thèse de G. Al Sukkar, Etude et recherche des interactions entre le routage dans les réseaux ad hoc et le plan de contrôle des réseaux pair-à-pair, Telecom & Management SudParis, 2008.<br>
+o	Thèse de Idrissa Sow, Partitionnement dans les réseaux mobiles ad hoc, geocasting et collecte des données dans les réseaux de capteurs sans fil, Université de Picardie Jules Verne, Juin 2009.<br>
+o	Thèse de Nguyen Huu Nghia , Network-based Mobility Management in Heterogeneous Wireless Networks, Université de Nice, Juillet 2009.<br>
+o	Thèse de Ismehene Chahbi, Exploitation des antennes multiples pour l'optimisation dans les réseaux sans fil, Université Pierre & Marie Curie et Telecom SudParis, 25 Février 2011.<br>
+o	Thèse de Magda Lila chelly, Propagation d’une position dans des réseaux connectés, Université Pierre & Marie Curie et Telecom SudParis, Juillet 2011.<br>
+o	Thèse de Aymen Boudguiga, Authentication in wireless mesh networks with ID-based cryptography, Telecom & Management SudParis – Université Paris 6, Septembre 2012.<br>
+o	Thèse de Emad Abousabea, Algorithmes d’optimisation de service vidéo, Telecom SudParis – Université Paris 6, Septembre 2012.
+o	Thèse de Mehdi Loukil, Gestion de contexte pour l’optimisation de l’accès et l’adaptation des services sur des environnements hétérgènes, Telecom SudParis – Université Paris 6,  Décembre 2012.<br>
+o	Thèse de Tiguiane Yélémou, Utilisation du taux d’erreur binaire pour améliorer la qualité de service dans les réseaux ad hoc, Université de Poitiers, Décembre 2012.<br>
+o	Thèse de Fédéric Besse, Réseaux ad hoc aéronautiques, Université de Toulouse, Février 2013.<br>
+o	Thèse de Ahmed Bader, Contention-Free Multi-relay Beaconless Geo-Routing, Telecom ParisTech, Juin 2013.<br>
+o	Thèse de Zeeshan Ahmed, Quality of Service in WiMAX for Multimedia Services, Université de Nantes, Juin 2013.<br>
+o	Thèse de Selim Elouze, Mécanismes de collaboration entre réseaux et services applicatifs pour l’optimisation des ressources et des services,  Université de Rennes 1, Juillet 2013.<br>
+				o	Thèse de Mamadou Tourad DIALLO, Qualité d’expérience et adaptation de services vidéo, Thèse Cifre avec Orange Labs, Telecom SudParis – Université Paris 6, Juin 2015. J’ai été Présidente du Jury.</P>
+
+
+
+
+		</section>
+		<section id="Research">
+			<h4><i class="fa fa-lightbulb-o" style="color:#009688; font-size: 34px;margin-bottom: 10px; ; border-bottom: double;">&#160;	&#160;	&#160;Research</i><br></h4>
+			<h1>Thèmes de recherche</h1>
+<p>
+•	Conception, optimisation, modélisation et évaluation de performances de mécanismes de niveau 2 et/ou 3 dans les réseaux sans fil, réseaux autonomes et systèmes de transport intelligents.<br>
+•	Sécurité dans les réseaux sans fil, réseaux autonomes et systèmes de transport intelligents.<br>
+•	Coopération dans les réseaux sans fil.<br>
+•	Correction d’erreur et adaptation des liens radio.<br>
+
+</p>
+	<h1>Activités de recherche</h1>
+<p>
+Mon activité de recherche porte sur la conception, l’optimisation, la modélisation et l’évaluation de performances de mécanismes de niveau 2 et/ou 3 ainsi que sur la conception d’architectures réseau supportant ces mécanismes. Mes travaux de recherche s’inscrivent dans le cadre général des réseaux sans fil, des réseaux autonomes et plus récemment des systèmes de transport intelligents coopératifs. Je mène également des travaux sur la sécurité dans ces trois types de réseaux et sur la coopération dans les réseaux sans fil.</p>	
+<h1>Activités d’animation et de valorisation de la recherche</h1>
+<p>
+-	Membre du groupe de travail WG5 Security & Certification (2015).<br>
+-	Expertise auprès du NFI ‘Connectivité’ Thème 4- Plan Véhicule Autonome (2015).<br>
+-	Membre de l’équipe ParisTech VeDeCoM (depuis 2012).<br>
+-	Intégration dans Nano-INNOV sur le plateau de Saclay (en 2012).<br>
+-	Montage de coopérations : NTU(Singapore), Secan-Lab (Luxembourg), FU Berlin (Allemagne), Centre de recherche Tecnalia (Espagne).<br>
+-	Expert AERES, campagne 2012 et 2013.<br>
+-	Expert ANR, évaluations de deux projets en 2012 et d’un projet en 2011.<br>
+-	Expert auprès de l’Institut-Mines-Télécom, programme Futur et rupture 2011.<br>
+-	Membre de l’Advisory board du projet européeen EU FP7 PRESERVE (2012).<br>
+-	Membre du comité de pilotage du réseau thématique RT2 de l’Institut Mines-Télécom (période 2012–2014).<br>
+-	Membre du groupe de travail (Task Force TC 6.5) du comité technique TC6 (Communication Systems) de l’IFIP (International Federation for Information Processing).<br>
+-	Membre IEEE, SEE, SIGCOMM & ACM.<br>
+-	Membre du GDR ASR, ASR REVE, Pôle Rescom.<br>
+-	Participation au groupe de travail du GDR ASR, représentante de l’action spécifique REVE sur les réseaux véhiculaires, participation à l’action spécifique REVE.<br>
+-	Participation à Moveo’Lab du pôle de compétitivité sur l'automobile Mov'eo (2011-2102).<br>
+-	Co-organisation de la 4ème journée REVE, 6 Avril 2012 à Telecom ParisTech.<br>
+-	Co-organisation de la 5ème journée REVE, 6 Juin 2014 à Telecom ParisTech.<br>
+-	Montage d’un groupe de travail Digicosme (2014-216).<br>
+-	Participation et co-organisation du workshop ParisTech-NTU, 8-9 juin 2009.<br>
+-	Création de la conférence internationale IFIP NTMS en 2007, elle est à sa 7ème édition.<br>
+-	Création du Workshop SecITS’11 sur la sécurité dans les réseaux de transport intelligents en 2011.<br>
+-	Conférences internationales/nationales: présidence de conférences, présidence de comités, présidence de sessions, membre de comités d’organisation, membre de comités de programmes.<br>
+-	Membre du comité éditorial de revues internationales : Elsevier Comnet, JNW (2009-2011).<br>
+-	Editeur et co-éditeur d’ouvrages scientifiques<br>
+-	Participation au groupe de travail A du CSTI (Conseil Stratégique des Technologies de l’Information) en 2002.<br>
+-	Organisation de la journée recherche sur les mobiles à Telecom ParisTech en 2002.
+</p>
+	<h1>Jurys et comités</h1>
+<p>
+-	Rapporteur de thèses de doctorat : 25<br>
+-	Membre de jurys de thèse de doctorat : 16<br>
+-	Evaluation à mi-parcours EDITE : 12<br>
+-	Evaluation de dossiers de thèses INRIA, postdoc INRIA : 6<br>
+-	Membre du comité de suivi de thèse : 2<br>
+-	Membre de la commission de spécialistes de 27ème section de l’Université Paris-Sud et de l’Université Paul Sabatier Toulouse III.<br>
+-	Membre du Comité du pôle 2 de l’école doctorale ED STIC de l’Université Paris-Saclay.
+
+ </p>		
+</section>
+		<section id="Publication"><h4><i class="fa fa-files-o" style="color:#009688;font-size: 34px;margin-bottom: 10px; ; border-bottom: double;">&#160;	&#160;	&#160;Publication</i></h4>
+			
+			
+		<h1>	Production scientifique</h1>
+
+
+<h2>Livres scientifiques</h2>
+<p>
+[1]	A. Beylot et H. Labiod, Réseaux véhiculaires : Modèles et algorithmes, Traité réseaux et télécoms IC2, Hermès Science Publications, Septembre 2013.<br>
+
+[2]	A. Beylot et H. Labiod, Vehicular Networks: Models and Algorithms, ISTE Publishing Knowledge/John Wiley and Sons Inc, 304 pages, Juin 2013.<br>
+
+[3]	H. Labiod, Wireless Ad Hoc and Sensor Networks, ISTE Publishing Knowledge/John Wiley and Sons Inc, 336 pages, Janvier 2008.<br>
+
+[4]	H. Labiod et al., New Technologies, Mobility and Security, Proceedings of NTMS’2007 Conference, Springer Verlag, 634 pages, Juin 2007.<br>
+
+[5]	H. Labiod, H. Afifi, and C. De Santis, Wi-Fi, Bluetooth, ZigBee and WiMAX, Springer, 450 pages, Mars 2007.<br>
+
+[6]	H. Labiod, Réseaux mobiles ad hoc et réseaux de capteurs sans fil, Hermès Science Publications/Lavoisier, (Collection : Traité IC2 Série Réseaux et télécoms), Mars 2006.<br>
+
+[7]	H. Labiod, H. Afifi, De Bluetooth à Wi-Fi: sécurité, qualité de service et aspects pratiques, Editions Hermès Science Publications, 354 pages, Mars 2004.<br>
+			</p>
+			
+<h2>Chapitres de Livres</h2>
+<p>
+[1]	G.e.m Zhioua, H. Labiod, N. Tabbane, S. Tabbane, Gateway Selection Algorithms in vehicular networks, Vehicular Networks: Models and Algorithms, ISTE Publishing Knowledge/John Wiley and Sons Inc, Juin  2013.<br>
+
+[2]	G.e.m Zhioua, H. Labiod, N. Tabbane, S. Tabbane, Algorithms de sélection de la passerelle dans les réseaux VANET hybrides, Traité réseaux et télécoms IC2, Hermès Science Publications, Septembre 2013.<br>
+[3]	N. Maslekar, M. Boussedjra, J.Mouzna, H. Labiod, Data Dissemination in Vehicular Networks: Challenges and Issues, Wireless Technologies in Vehicular Ad Hoc Networks: Present and Future Challenges, IGI Global Publications, 2011.<br>
+
+[4]	C. Tchepnda, H. Moustafa, H. Labiod and G. Bourdon, Security in Vehicular Networks, Titre du livre "Vehicular Networks: Techniques, Standards and Applications", Auerbach Publications–CRC Press (Taylor & Francis Group), 2008.<br>
+
+[5]	H. Labiod, Multicast ad hoc routing, Wireless Ad Hoc and Sensor Networks, ISTE Publishing Knowledge/John Wiley and Sons Inc, Janvier 2008.<br>
+
+[6]	H. Labiod, Routage ad hoc multicast, Réseaux mobiles ad hoc et réseaux de capteurs sans fil, Hermès Science Publications, Collection Traité IC2, Série Réseaux et télécoms, Avril 2006.<br>
+
+Thèses
+H. Labiod, Les réseaux sans fil et ad hoc: routage et sécurité, HDR (Habilitation à diriger les recherches), Université  de Paris-Sud, 20 Mai 2005.<br>
+H. Labiod, Mécanismes de correction d’erreur dans un réseau ATM-mobile, Thèse de doctorat, Université de Versailles, 20 Novembre 1998.<br>
+			</p>
+<h2>Revues internationales avec comité de lecture</h2>
+
+<h3>Rajouter 2016-2018</h3>
+<p>
+[1]	G.e.m Zhioua, N. Tabbane, H. Labiod, S. Tabbane, A Fuzzy Multi-metric QoS-balancing Gateway Selection Algorithm in a Clustered VANET to LTE Advanced Hybrid Cellular Network, IEEE Transactions on Vehicular Technology, Volume 64, Issue n°2, pp. 804-817, February 2015.<br>
+
+[2]	H. Labiod, S. Zeadally, E. Tebchrany, Performance Analysis of a Cross-Layered Incremental Redundancy Hybrid Automatic Repeat Request (CL IR-HARQ) Mechanism, Elsevier Ad Hoc Networks Journal, volume 23, pp. 109-120, December 2014.<br>
+
+[3]	G.e.m Zhioua, H. Labiod, N. Tabbane, S. Tabbane, LTE Advanced Relaying Standard: A Survey, Wireless Personal Communications Journal, Ed. Springer, Volume 72, Issue 4, pp. 2445-2463, April 2013.<br>
+
+[4]	N.Maslekar, M. Boussedjra, J.Mouzna, H.Labiod, CATS: an adaptive traffic signal system based on car-to-car communication, Elsevier Journal of network and computer applications, Special issue on vehicular communications and applications, Volume 36, pp. 1308-1315, June 2013. <br>
+[5]	D. Fotue, H. Labiod and T. Engel, Performance Evaluation of Mini-sinks Mobility Using Multiple Paths in Wireless Sensor Networks,  International Journal of Computer Science and Security (IJCSS), Volume 6, and Issue 3, June 2012.<br>
+[6]	H. Lin and H. Labiod, Aggregation methods for integrated services, International Journal of Communication Systems, 24(8), pp 978-1001, Volume 24, Number 8, August 2011.<br>
+[7]	S Ktari, A. Hecker, H. Labiod, Symmetric routing in DHT overlays, Telecommunication Systems Journal, ed Springer, Volume 48, Numéro (1-2): pp. 163-172, 2011.<br>
+[8]	H. Labiod, H. Lin and R. Nonni, Analytical Study of Intra-domain handover in Multihomed mobile routers based multihomed NEMO Networks, Elsevier Computer Networks Journal, 54 Issue 18, pp3280-3294, January 2010.<br>
+[9]	V. Toubiana, H. Labiod, L. Raynaud, Y. Gourhant, A Global Security Architecture for Operated Hybrid WLAN Mesh Networks, Elsevier Computer Networks Journal, Elsevier Publishing, Volume 54, Issue 2, Pages 218-230, February 2010.<br>
+
+[10]	C. Tchepnda, H. Moustafa, H. Labiod and G. Bourdon, On Analyzing the Potential of a Layer-2 Multihop Authentication and Credential Delivery Scheme for Vehicular Communications, Springer Wireless Personal Communications Journal, Special issue on Information Security and data protection in Future Generation Communication and Networking, Volume 51, Issue (1) 2009.<br>
+[11]	C. Tchepnda, H. Moustafa, H. Labiod and G. Bourdon, Vehicular Communications Security: Attacks, Requirements, Challenges and Current Contributions, International Journal of Ambient Computing and Intelligence  IJACI Journal (IGI Global), vol. 1, n° Issue 1, pp. 39 52, January-March 2009.<br>
+[12]	H. Moustafa and H. Labiod, Adaptive Path Energy Conserving Routing in MANETs, Ad Hoc and Sensor Wireless Networks Journal, Old City Publishing, Volume 1, issue 4, March 2005.<br>
+[13]	A.Hecker, H. Labiod, G. Pujolle, H. Afifi, A. Serhrouchni and P. Urien, A New Access Control Solution for a Multi-provider Wireless Environment, Telecommunication Systems Journal, Springer Science+Business Media B.V, pp. 131-152, Volume 29, Number 2, June 2005.<br>
+[14]	H. Moustafa and H. Labiod, Multicast Routing In Mobile Ad hoc Networks, Telecommunication Systems Journal, Numéro 25, volume 1/2, pp 65-88, Kluwer Academic Publishers, January/February 2004.<br>
+[15]	H. Labiod, R. Boutaba, Performance Evaluation of Block Error-Correcting Codes for High Speed Wireless Communication Links, ICON Journal, Baltzer Science Publisher, 2000.<br>
+[16]	H. Labiod, K. Boudaoud and Jacques Labetoulle, Towards a New Approach for Intrusion Detection with Intelligent Agents, Networking and Information Systems Journal, 1999.<br>
+	[17]	K. AL Agha and H. Labiod, MA-WATM: A New Approach Towards an Adaptive Wireless ATM Network, ACM MONET Journal, Baltzer publisher, Volume 4, N 2, pp. 101-109, 1999.</p>
+
+<h3>Papiers invités</h3>
+<p>
+[1]	H. Labiod, Les réseaux NEMO: handoff et réservation de ressources, DNAC04 - Ecole d’hiver, 11-18 Décembre, Egypte, 2004.<br>
+[2]	H. Labiod, Ad hoc routing with QoS support, Second Polytechnic Symposium on Signal Processing, 15 September, Algeria, 2004.<br>
+[3]	H. Labiod, Group Mobility Models for Mobiles Ad hoc Networks, L’Aquilla, SSGRR2003, Italy, 2003.<br>
+[4]	H. Labiod, WiFi et WiFi5, DNAC02, 3-5 Décembre, Paris, 2002.<br>
+[5]	A. Hecket, H. Labiod and al., A new control access solution for a multi-provider wireless environment, ICTSM-10, Monterey, California, USA, 3-6 October 2002.<br>
+			</p>
+<h3>Tutoriaux</h3>
+			<p>
+H. Labiod, WLANs and IEEE 802.11’s Family, International Summer School on Signal Processing and its Applications I3SPA, 11-14, September, ENP, Algiers, Algeria, 2004.
+</p>
+<h2>Conférences internationales avec actes et comité de lecture</h2>
+<p>
+[1]	A. Boudguiga, A. Boulanger, P. Chiron, H. Labiod, J-C Seguy and W. Klaudel, RACE: Risk Analysis for Cooperative Engines, 7th IFIP NTMS 2015, Paris, France, July 27-29, 2015.<br>
+
+[2]	P. Cincilla, A. Kaiser, B. Lonc, H. Labiod, R. Blancher, C. Jouvray, R. Denis, A. boulanger, Security of C-ITS Messages: a Practical Solution The ISE Project Demonstrator, 7th IFIP NTMS 2015, Paris, France, July 27-29, 2015.<br>
+
+[3]	G.e.m Zhioua, H. Labiod, N. Tabbane, S. Tabbane, Cellular Content Download Through a Vehicular Network: IEV Link Estimation, 81th IEEE VTC Spring 2015, Glasgow, Scotland, May 11-14, 2015.<br>
+
+[4]	J. Zhang, V. Gauthier, H. Labiod, H. Afifi, Information Dissemination in Vehicular Networks using Evolutionary Game Theory, IEEE ICC 2014, Sydney, Australia, June 10-14, 2014.<br>
+
+[5]	H. C. Tan, M. Ma, H. Labiod, P.H.J. Chong, TEDS: A trusted entropy and dempster shafer mechanism for routing in wireless mesh networks, The Fourth International Conference on Mobile Services, Resources, and Users (Mobility 2014), pp. 12-18, Paris, France, July 20-24, 2014.<br>
+
+[6]	G.e.m Zhioua, J. Zhang, H. Labiod, N. Tabbane, S. Tabbane, VOPP: A VANET Offloading Potential Prediction Model, 15th IEEE WCNC 2014, Istanbul-Turkey, April 6-9, 2014.<br>
+
+[7]	G.e.m Zhioua, H. Labiod, N. Tabbane, S. Tabbane, A QoS Aware Approach for Cellular Infrastructure Offloading, 22nd IEEE/ACM IWQoS 2014, Hong Kong, China, May 26-27, 2014.<br>
+
+[8]	G.e.m Zhioua, H. Labiod, N. Tabbane, S. Tabbane, FQGwS Gateway Selection Algorithm: Complexity and Performances, 4th IEEE ICNC, pp. 413-417, Honolulu, USA, , February 3-6, 2014.<br>
+
+[9]	G.e.m Zhioua, H. Labiod, N. Tabbane, S. Tabbane, VANET Inherent Capacity for Offloading Wireless Cellular Infrastructure: An Analytical Study, 6th IFIP NTMS 2014, Dubai, March 30th– April 02th, 2014.<br>
+[10]	R. Moalla, B. Lonc, G. Segara, M. Lagana, P. Papadimitratos, J. Petit, H. Labiod, Experimentation with the PRESERVE VSS and the Score@F System, Transport Research Arena (TRA), Paris, France, April 14-17, 2014.<br>
+
+[11]	R. Moalla, B. Lonc, H. Labiod, N. Simoni, CIVAS: Towards a Cooperative ITS Vehicle Application oriented Security framework, IEEE Intelligent Vehicles Symposium (IEEE IV’2014), pp. 1043-1048, Dearborn, Michigan, USA, June 8 - 11, 2014.<br>
+
+[12]	R. Moalla, B. Lonc, H. Labiod and N. Simoni, Security Architecture for Cooperative ITS-S Vehicles, 11th International Conference on Embedded Security in Cars (ESCAR 2013), Frankfurt, Germany, November 14-15, 2013.<br>
+[13] 	D. Fotue; H. Labiod, T. Engel, Performance Evaluation of Hybrid Channel Assignment for Wireless Sensor Networks, 8th IEEE International Conference on Mobile Ad-hoc and Sensor Networks (MSN), pp. 32-39, Chengdu, China, December 14-16, 2012.<br>
+[14] 	D. Fotue, H. Labiod and T. Engel, An Arbitrary Mobility Model of Mini-Sinks using Controlled Data Collection for Reducing Congestion Appearance in Wireless Sensor Networks,  31st IEEE International Performance, Computing, and Communications Conference (IPCCC), pp. 101-109, Austin, Texas, USA, December 1st - December 3rd, 2012.<br>
+[15] 	G.e.m Zhioua, H. Labiod, N. Tabbane, S. Tabbane, An Efficient QoS based Gateway Selection Algorithm for VANET to LTE Advanced Hybrid Cellular Network, 15th ACM International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems MSWIM 2012, pp. 353-356, Paphos, Cyprus Island, October 21-25, 2012.<br>
+[16]	G.e.m Zhioua, H. Labiod, N. Tabbane, S. Tabbane, A Multi-metric QoS-balancing Scheme for Gateway Selection in a Clustered Hybrid VANET network, 8th IEEE International Conference on Wireless and Mobile Computing, Networking and Communications (WiMob 2012), pp. 150-156, Barcelona, Spain, October 8-10, 2012.<br>
+[17]	D. Fotue, H. Labiod and T. Engel, Controlled Data Collection of Mini-Sinks for Maximizing Packet Delivery Ratio and Throughput Using Multiple Paths in Wireless Sensor Networks, 23rd IEEE International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC), pp. 774-780, Sydney, Australia, September 9-12, 2012.<br>
+[18]	R. Moalla, B. Lonc, H. Labiod and N. Simoni, How to Secure ITS Applications,  11th IFIP Annual Mediterranean Ad Hoc Networking Workshop (Med-Hoc-Net 2012), pp. 113-118, Cyprus,  June 19-22, 2012.<br>
+[19]	R. Moalla, H. Labiod, B. Lonc and N. Simoni, Risk Analysis Study of ITS Communication Architecture, Third International Conference on the Network of the Future (NOF), pp. 1-5, Gammart, Tunisia, November 21-23, 2012.<br>
+[20]		D. Fotue, F. Melakessou, H. Labiod and T. Engel, Mini-Sink Mobility with Diversity-Based Routing in Wireless Sensor Networks, 8th ACM International Symposium on Performance Evaluation of Wireless Ad Hoc, Sensor, and Ubiquitous Networks (PE-WASUN), pp. 1-7, Miami, Florida, October 31-November 4, 2011.<br>
+[21]		D. Fotue, F. Melakessou, H. Labiod and T. Engel, A Distributed Hybrid Channel Selection and Routing Technique for Wireless Sensor Networks, 74th IEEE Vehicular Technology Conference (VTC-Fall), pp. 1-6, San Francisco, CA, USA, September 5-8, 2011.<br>
+[22]	D. Fotue, F. Melakessou, H. Labiod, and T. Engel, Effect of Sink Location on Aggregation based on Degree of Connectivity for Wireless Sensor Networks, 5th International Conference on Innovative Mobile and Internet Services in Ubiquitous Computing (IMIS),pp. 1-6, Seoul, Korea, June 30-July 02, 2011.<br>
+[23]	D. Fotue, F. Melakessou, H. Labiod, T. Engel, Effect of Sink Location on Aggregation based on Degree of Connectivity for Wireless Sensor Networks, First International Workshop on Advanced Communication Technologies and Applications to Intelligent transportation systems, Cognitive radios and Sensor Networks (ACTICS), pp. 1-6, 2011, Seoul, Korea, June 30 - July 2, 2011.<br>
+[24]	H. N. Dau and H. Labiod, Opportunistic Trajectory-based Routing for V2V Communications, 22nd IEEE PIMRC 2011, Toronto, Canada, September 11-14, 2011.<br>
+[25]	N.Maslekar, M. Boussedjra, J.Mouzna and H.Labiod, CDRIVE- Clustering Based on Direction in Vehicular Networks, 4th IFIP NTMS Conference, Paris, France, February 7-10, 2011. <br>
+[26]	N.Maslekar, M. Boussedjra, J.Mouzna, H.Labiod, VANET based Adaptive Traffic Signal Control, IEEE 73rd Vehicular Technology Conference: VTC2011-Spring, Budapest, Hnagary, May 15-18, 2011.<br>
+[27]	N.Maslekar, M. Boussedjra, J.Mouzna, H.Labiod, A Stable Clustering Algorithm for Efficiency Applications in VANETs, 7th IEEE IWCMC Vehicular Communication Symposium, Istanbul, Turkey, July 5-8, 2011. <br>
+[28]	N.Maslekar, J. Mouzna, H.Labiod, M. Devisetty, M. Pai, Modified C-DRIVE : Clustering based on direction in Vehicular Environment, IEEE IV, Baden-Baden, Germany, June 5-9, 2011.<br>
+[29]	Y. Begriche and H. Labiod, A Posterior Distribution for Anti-spam Bayesian Statistical Model, The 6th International Conference on Network Architectures and Information Systems Security (SAR-SSI 2011), La Rochelle, France, May 18-21, 2011.<br>
+[30]	D. Fotue, F. Melakessou, T. Engel and H. Labiod, Design of New Aggregation Techniques for Wireless Sensor Networks, 18th Annual Meeting of the IEEE/ACM International Symposium on Modeling, Analysis and Simulation of Computer and Telecommunication Systems, MASCOTS, short paper, pp. 400-402, Miami, Florida, USA, August 17-19, 2010.<br>
+[31]	D. Fotue, F. Melakessou, T. Engel and H. Labiod, Design of an Enhanced Energy Conserving Routing Protocol based on Route Diversity in Wireless Sensor Networks, 9th IFIP Annual Mediterranean Ad Hoc Networking Workshop (Med-Hoc-Net 2012), pp. 1-7, Juan-les-Pins, France, June 23-25, 2010.<br>
+[32]	N. Ababneh, H. Labiod and N. Boukhatem, Evaluation of Routing Protocols for VANETs in Urban Environments, In Proceedings of the 33rd IEEE Sarnoff Symposium (Sarnoff 2010), Princeton, USA, April 12-14, 2010. <br>
+[33]	H. Labiod, N. Ababneh and M.G. de la Fuente, M.G, An Efficient Scalable Trajectory Based Forwarding Scheme for VANETs, In Proceedings of the 24th IEEE International Conference on Advanced Information Networking and Applications (AINA 2010), Perth, Australia, April 20-23, 2010.<br>
+[34]	N. Ababneh and H. Labiod, Safety Message Dissemination in VANETs: Flooding or Trajectory-Based?, 9th IFIP Annual Mediterranean Ad Hoc Networking Worshop (Med-Hoc-Net 2010), Juan-les-Pins, France, June 23-25, 2010.<br>
+[35]	N. Ababneh, H. Labiod and N. Boukhatem, A performance Analysis of VANETs Routing Protocols Using Different Mobility Models, IEEE International Conference on Wireless Communications, Networking and Information Security (WCNIS), Beijing, China. June 25-27, 2010.<br>
+[36]	F. Didi, H. Labiod, G. Pujolle, M.Feham, Physical rate and contention window based admission control for IEEE 802.11 WLANs, IEEE ISCC, Riccione, Italy, June 22-25, 2010.<br>
+[37]	H. Lin and H. Labiod, Advance Reservation Optimization in IP-based Mobile Networks, in Proc of 12th IEE/IFIP NOMS 2010, Osaka, Japan, April 2010.<br>
+[38]	N. Brahmi, L. Boukhatem, N. Boukhatem, M. boussedjra, N. H. Dau, H. Labiod, J. Mouzna, End-to-end routing through a hybrid ad hoc architecture for V2V and V2I communications, IFIP Med-Hoc-Net 2010, Juan-les-Pins, France, June 23-25, 2010.<br>
+[39]	N.Maslekar, M. Boussedjra, J.Mouzna and H.Labiod, Direction Based Clustering Algorithm for Data Dissemination in Vehicular Networks, IEEE Vehicular Networking Conference, Tokyo, Japan, October 28-30, 2009.<br>
+[40]	H. Lin and H. Labiod, Hybrid Architecture for Resource Reservation in IP-based Mobile Networks,  12 th ACM MSWiM, Poster session, Tenerife, Canary Islands, Spain, October 2009.<br>
+[41]	H. Lin and H. Labiod, Hybrid Architecture for Resource Reservation in IP-based Mobile Networks, in 12th Proc of ACM workshop PM²HW²N 2009, Tenerife, Canary Islands, Spain, October 2009.<br>
+[42]	Y. Begriche and H. Labiod, A Bayesian Statistical Model for a Multipath Trusted based Reactive Ad hoc Routing Protocol, The seventh International Conference on Information, Communications and Signal (ICICS), Macau, December 8-10, 2009.<br>
+[43]	Y. Begriche and H. Labiod: A Prior distribution for anti-spam statistical Bayesian model, IFIP International Conference on Network and Service security (N2S), June 24-26, Paris, France, 2009.<br>
+[44]	N. Ababneh, A. Viglas, H. Labiod, N. Boukhatem, ECTC: Energy effiCient Topology Control Algorithm for Wireless Sensor Networks, In Proceedings of the 10th IEEE International Symposium on a World of Wireless Mobile and Multimedia Networks", IEEE WoWMoM, Kos Island, Greece, 2009.<br>
+[45]	S. Ktari, A. Hecker, H. Labiod, Exploiting Routing Unfairness in DHT Overlays, IEEE ISCC 2009, Sousse Tunisia, 2009.<br>
+[46]	S. Ktari, A. Hecker, H. Labiod, Empowering Chord DHT Overlays, HPSR2009. Paris, France, 2009.<br>
+
+[47]	S. Ktari, A. Hecker, H. Labiod, Structured flooding search in Chord Overlays, IEEE GIIS2009, Hammamet Tunisia, 2009.<br>
+[48]	S. Ktari, A. Hecker, H. Labiod, A construction scheme for scale free DHT based networks, IEEE Globecom2009, Hawaii USA, 2009.<br>
+[49]	S. Ktari, A. Hecker, H. Labiod, Exploiting Power-Law Node Degree Distribution in Chord Overlays, NGI2009, Avero Protugal, 2009.<br>
+[50]	A. Almamou, R. Wrede, P. Kumar, H. Labiod and J. Schiller, Performance Evaluation of Routing Protocols in a Real-World WSN, IEEE Global Information Infrastructure Symposium (IEEE GIIS 2009), Hammamet, Tunisia, June, 2009.<br>
+[51]	S. Ktari, A. Hecker et H. Labiod, Power Law Chord Architecture in P2P Overlays, ACM CoNext, Madrid, Espagne, 2008.<br>
+[52]	C. Tchepnda, H. Moustafa, H. Labiod and G. Bourdon, A Layer-2 Multi-hop Authentication and Credential Delivery Scheme for Vehicular Networks, IEEE Globecom 2008, New Orleans, USA, 2008.<br>
+[53]	V. Toubiana and H. Labiod, Towards a flexible security management solution for dynamic MANETs, IEEE NOMS 2008, Brazil, May 27-30, 2008.<br>
+[54]	S. Ktari, M. Zoubert, A. Hecker and H. Labiod, Symmetric Replication for Efficient Flooding in DHTs, ACM MobiHoc 2008, Hong Kong, China, 2008.<br>
+[55]	V. Toubiana and H. Labiod, An analysis of ASMA performances against packet dropping attacks in dense networks, IEEE ISCC 2008, Marrakech, Morroco, 2008.<br>
+[56]	A. Almamou, J. Schiller, H. Labiod and M. Günes, A Case for an Overlay Routing On Top of MAC layer for WSN, The Second International Conference on Sensor Technologies and Applications (Sensorcomm 2008),  Cap Esterel, France, August, 2008.<br>
+[57]	H. Lin and H. Labiod, Release of unnecessary resource reservation in mobility case, IEEE ISCC’08, Marrakech, Morroco, 2008.<br>
+[58]	H. Lin and H. Labiod, RVP: A new policy for aggregate reservation:, IEEE Globecom’08, New Orleans, December, 2008. <br>
+[59]	C. Tchepnda, H. Moustafa, H. Labiod and G. Bourdon, Prioritizing and Enhancing Vehicular Networks Authentication Process Using DSRC Channels Diversity, IEEE WiMob 2008, Avignon, France, 2008.<br>
+[60]	C. Tchepnda, H. Moustafa, H. Labiod and G. Bourdon, Performance Analysis of a Layer-2 Multi-hop Authentication and Credential Delivery Scheme for Vehicular Networks, IEEE VTC-Spring (Vehicular Technology Conference), Marina Bay, Singapore, May 2008.<br>
+[61]	C. Tchepnda, H. Moustafa, H. Labiod and G. Bourdon, A Panoram on Vehicular Networks Security”, Proceedings of International Workshop on Interoperable Vehicles (IOV) – Internet Of Things (IOT), 2008.<br>
+[62]	Y. Begriche and H. Labiod,  A Bayesian filter to detect misbehaving nodes in MANETs, The 3rd IFIP International Conference on New Technologies, Mobility and Security (NTMS), November, Tangier, Morrocco, 2008.<br>
+[63]	M. Garcia de la Fuente and H. Labiod, Performance Analysis of Position-Based Routing Approaches in VANETs, in IFIP-IEEE International Conference on Mobile and Wireless Communication Network, MWCN, Cork, Ireland, September 19-21, 2007.<br>
+[64]	S. Ktari, M. Zoubert, A. Hecker and H. Labiod, Performance Evaluation of Replication Strategies in DHTs under Churn, 6th International Conference on Mobile and Ubiquitous Multimedia, MUM 2007, Oulu, Finland, 2007.<br>
+[65]	V. Toubiana, H. Labiod and B. Fischer, Event based mobility model for subway scenarios, 3rd IEEE international Conference Wireless and Mobile Computing, Networking and Communications, IEEE WiMob 2007, New York, USA, 2007.<br>
+[66]	V. Toubiana , H. Labiod and B. Fischer, An analysis of ASMA trust evolution in a dense subway environment, IEEE Global Information Infrastructure Symposium, Marrakech, Morocco, July 2-5, 2007.<br>
+[67]	H. Lin and H. Labiod, Hybrid Handover Optimization for Multiple Mobile Routers based Multihomed NEMO Networks, IEEE Internatianal Conference on Pervasive Services, IEEE ICPS, Istanbul, Turkey, 2007.<br>
+[68]	A. Al Mamou, H. Labiod,  ScatterPastry: An Overlay Routing Using a DHT over Wireless Sensor Networks, IEEE IPC-07 conference, October 2007.<br>
+[69]	V. Toubiana, H. Labiod, L. Raynaud L. and Y. Gourhant, An adaptive security Framework for ad hoc networks, 1st Conference on New Technologies, Mobility and Security, 1st IFIP Conference NTMS 2007, Paris, France, 2007.<br>
+[70]	H. Lin and H. Labiod, Handover Optimization for vehicle NEMO Networks”, New Technologies Mobility and Security, 1st IFIP Conference NTMS 2007,Paris, France, 2007.<br>
+[71]	M. Garcia De La Fuente and H. Labiod, A Performance Comparison of Position-Based Routing Approaches for Mobile Ad Hoc Networks, IEEE VTC-Fall 2007, Baltimore, USA, 2007.<br>
+[72]	V. Toubiana and H. Labiod, ASMA: Towards Adaptive Secured Multipath in MANETs”, 8th IFIP/IEEE Conference on Mobile and Wireless Communications Networks, Santiago, Chile, 2006.<br>
+[73]	H. Lin, G. Zhi Wei, H. Labiod and A. Wei, Handover optimization for host and network mobility, International Conference on Wireless Information Networks and Systems, Winsys, Setubal, Portugal, 2006.<br>
+[74]	C. Tchepnda, H., Moustafa and H. Labiod., Hybrid Wireless Networks: Applications, Architectures and New Perspectives, Proceeding of IEEE IWWAN, New York, NY, USA, 2006.<br>
+[75]	H. Lin and H. Labiod, INGEO: INdoor GEOgraphic Routing Protocol for MANETs, International Conference on Mobile Computing and Ubiquitous Networking, ICMU, London, 2006.<br>
+[76]	C. Tchepnda, H. Moustafa, H. Labiod and G. Bourdon, Securing Vehicular Communications: An Architectural Solution Providing a Trust Infrastructure, Authentication, Access Control and Secure Data Transfer, IEEE Globecom IEEE AutoNet 2006, San Francisco, CA, USA, 2006.<br>
+[77]	S. Ktari, H. Labiod, M. Frikha, Load Balanced Multipath Routing in Mobile Ad hoc Network”, 10th IEEE Communication systems, 2006. ICCS 2006, Siangapore,  2006.<br>
+[78]	F. Didi, H. Labiod, G. Pujolle, A Comprative study of 802.11 and 802.11e wireless LAN standards, 2nd International Conference On Web Information Systems and Technologies, Webist 2006, Setubal, Portugal, April 2006.<br>
+[79]	H. Labiod and M. Tlais. Quality of Service support in NEMO Networks, IEEE ASWN 2006. Berlin, Germany, 2006.<br>
+[80]	A. Hecker, E. Blass and H. Labiod, A Decentralized Management and Access Control for 802.1X WLANs, 10th IFIP PWC 2005, Colmar, France, 2005.<br>
+[81]	M. Tlais and H. Labiod, Resource Reservation for NEMO Networks, IEEE WirelessCom 2005. Hawaii, USA, 2005.<br>
+[82]	H. Labiod and M. Tlais, A Centralized Approach for Multi-homed Networks, International Conference IPSI, France, 2005.<br>
+[83]	H. Labiod, R. Duffau, KMS: A Key Management System for Multi-Provider Interconnected Wi-Fi WLANs, IEEE Globecom 2004, Dallas, Texas, USA, December 2004,.<br>
+[84]	A. Hecker, H. Labiod, Pre-Authenticated Signaling in Wireless LANs using 802.1X Access Control", IEEE Globecom 2004, December 2004, Dallas, Texas, USA.<br>
+[85]	A. Hecker, H. Labiod, A New EAP-based Signaling Protocol for IEEE 802.11 Wireless LANs, IEEE 60th VTC-Fall, September 2004, Los Angeles, CA, USA.<br>
+[86]	A. Hecker, H. Labiod, An Efficient Micromobility Implementation for 802.1X WLANs, IEEE 15th PIMRC, Barcelona, Spain , September 2004. <br>
+[87]	H. Moustafa and H. Labiod, A Performance Analysis of Source Routing-based Multicast Protocol (SRMP) Using Different Mobility Models”, IEEE ICC 2004, 20-24 June , Paris, 2004.<br>
+[88]	W. Laouiti, K. Cordoso, H. Labiod, M. Genet, A. Hecker, B. Jouaber, D. Zeghlache, RESACO: An Open and Programmable Multi-Domain Platform for Cooperative and Auto-Configurable Networks, ICWN 04, Las Vegas, Nevada, USA, June 2004,.<br>
+[89]	H. Moustafa and H. Labiod, A Performance Comparison of Multicast Routing Protocols In Ad hoc Networks, IEEE PIMRC 2003, Beijing, China, September 07-10, 2003.<br>
+[90]	H. Labiod, T. Guerniche, A QoS-ASR Adaptive Source Routing Protocol for Ad Hoc Communications, IEEE PIMRC 2003, Beijing, China, September 07-10, 2003.<br>
+[91]	H. Moustafa and H. Labiod, A Multicast On-demand Mesh-based Routing Protocol in Multihop Mobile Wireless Networks, IEEE VTC-fall’03, Florida, October6-9, 2003.<br>
+[92]	H. Moustafa and H. Labiod, Adaptive Path Energy Conserving Routing in MANETs, 5th IFIP International Conference on Mobile and Wireless Communication Networks (MWCN), Singapore, October 27-29, 2003.<br>
+[93]	B. Zouari, H. Afifi, A. Hecker, H. Labiod, G. Pujolle, P. Urien, A Novel Authentication Model Based on Secured IP Smart Cards", IEEE ICC 2003, Anchorage, Alaska, USA, May 11-15, 2003.<br>
+[94]	H. Moustafa and H. Labiod, Energy Consumption Routing for Mobile Ad hoc networks, LNCS proceeding of the European Symposium on Ambient Intelligence (EUSAI), Torino, Italy, November 3-4, 2003.<br>
+[95]	H. Labiod, A. Quidelleur, QoS-ASR: An Adpative Source Routing Protocol with QOS support in Multihop Wireless Networks”, IEEE VTC2002, Vancouver, Canada, 2002.<br>
+[96]	A. Hecker, H. Labiod , A. Serhrouchni, Authentis: Through Incremental Authentication Models to Secure Interconnected WiFi WLANs, IEEE ASWN’02, Paris, 2002.<br>
+[97]	H. Moustafa and H. Labiod, Source Routing-based Multicast Protocol for Mobile Ad hoc  Networks, ICTSM-10, 3-6 October 2002, Monterey, California, USA.<br>
+[98]	N. Nikaein, Houda Labiod and C. Bonnet, DDR- Distributed Dynamic Routing Algorithm for Mobile Ad Hoc Networks, in proceedings of the MobiHoc 2000, Annual Workshop on Mobile Ad Hoc Networking & Computing in conjunction with ACM MobiCom 2000, Boston, USA, August 11, 2000.<br>
+[99]	N. Nikaein, H. Labiod and C. Bonnet, MA-FEC: a QoS-based adaptive FEC for multicast communication in wireless networks, IEEE ICC 2000, New-Orleans, Louisiana, USA, June 18-22, 2000.<br>
+[100]	K. Boudaoud, H. Labiod, R. Boutaba, Z. Guessoum,  Network Security Management with Intelligent Agents , IEEE/IFIP NOMS, Honolulu, Hawaii, April 10-14, 2000.<br>
+[101]	H. Labiod, Performance of Reed Solomon Error-Correcting Codes On Fading Channels, IEEE ICPWC’99, Jaipur, India, February 17-19, 1999.<br>
+[102]	H. Labiod, A BCH Error Recovery Scheme for Adapative Error Control in Wireless Networks, IEEE VTC’99, Houston, Texas, USA, 10-20 May, 1999.<br>
+[103]	K. Boudaoud and H. Labiod, MA-NID: A Multi-Agent System for Network Intrusion Detection, IEEE ICIS’99, Denver, Colorado, USA, June 24-26, 1999.<br>
+[104]	H. Labiod, A Radio SSCS-AAL5 Error Control Scheme for Personal Communication Networks, IEEE ICT’98, Vol. II, pp. 27-31, Porto Carras, Greece, June 21-25,1998.<br>
+[105]	H. Labiod, Specification of Radio AAL Type 5 for Wireless ATM Networks, IWTS’97, Vol.3, pp. 19-24, Shah Alam, Malaisia, May 14-16, 1997.<br>
+[106]	K. Al Agha, H. Labiod, S. Omari, G. Pujolle, Evolution Towards Autonomous Entities in Wireless ATM Using Intelligent Agents, ICCC’97, Cannes, France, pp. 359-366, November 18-21,1997.
+</p>
+
+<h2>Conférences nationales avec actes et comité de lecture
+			A maj</h2>
+<p>
+[1]	G.E.M Zhioua, H. Labiod, N. Tabbane et S. Tabbane, Algorithme de sélection de gateway dans un réseau hybride VANET LTE Advanced: Complexité et performances, Journées Nationales des Communications dans les Transports (JNCT'2013), Nevers, 29-30 Mai, France, 2013.<br>
+[2]	R. Moalla, H. Labiod, B. Lonc, N. Simoni, C-ITS Security: Standards and experimentations, Journées Nationales des Communications dans les Transports (JNCT'2013), Nevers, 29-30 Mai, France, 2013.<br>
+[3]	S. Ktari, A. Hecker, J. Huang, H. Labiod, Effet de la mobilité MANET sur un système P2P, CFIP 2008, France, 2008.<br>
+[4]	A. Le Duc, C. Le Martret, P. Ciblat et H. Labiod, Procédé de retransmission à redondance incrémentale adapté aux paquets IP fragmentés, GRETSI, Troyes, France, 2007.<br>
+[5]	C. Tchepnda, H. Moustafa, H. Labiod. et G. Bourdon, Vehicular Communications Security Challenges, JDIR 2007, Marne la vallée, France, 2007.<br>
+[6]	H. Moustafa and H. Labiod, Mobile Ad hoc Networks with Energy Conserving, Ambience Rennes Workshop, 31 march – 1 April 2003, Workshop Rennes–France 2003.<br>
+[7]	H. Labiod, QoS-ASR: un protocole de routage adaptatif avec support de qualité de service pour les réseaux ad hoc", CISTEMA2003, Tlemcen, Algérie 27-29 Septembre, 2003.<br>
+[8]	N. Nikaein, H. Labiod, S. Wu, C. Bonnet, DDR-Distributed Dynamic Routing Algorithm for Mobile ad hoc Networks, Algotel’01, 8-9 Mars, Paris 2001.<br>
+[9]	N. Nikaein, S. Wu, C. Bonnet and H. Labiod,  Designing Routing Protocol for Mobile Ad Hoc Networks, in proceedings of  14th DNAC 2000,  conference of New Architectures for Communications, Paris, France 2000.<br>
+[10]K. AL Agha, H. Labiod, ATM-mobile : Une Nouvelle Approche pour les Applications Multimédias, DNAC’96, pp 83-99, 3-5 Décembre 1996, Versailles, France.
+</p>
+			
+<h2>Workshops nationaux</h2>
+			<p>
+[1]	J. Zhang, H. Labiod, V. Gauthier, H. Afifi, Information Dissemination in Vehicular Networks via EGT, Journée REVE, Telecom ParisTech, Paris, 6 Juin, 2014.<br>
+[2]	H. Afifi, H. Labiod, H. Aissaoui, B. Stevant, J-M. Bonnin, VELCRI: Activités Institut Mines-Telecom, Workshop VELCRI, Site de Schneider Electric Eybens, Grenobles, Telecom ParisTech, Paris, 04 Juin 2014.<br>
+[3]	H. Labiod, H. Aissaoui, H. Afifi, Projet VELCRI: Sécurisation de la communication véhicule-borne de recharge, Poster, Workshop VELCRI, Site de Schneider Electric Eybens, Grenobles, Telecom ParisTech, Paris, 04 Juin 2014.<br>
+[4]	R. Moalla, H. Labiod, B. Lonc, Pseudonym Update for Privacy in Cooperative V2X Systems, 3ème Colloque Institut Mines-Télécom "Numérique : Grande échelle et complexité", Telecom ParisTech, Paris, 26-27 Mars 2014.<br>
+[5]	H. Labiod et al., FQGwS Gateway Selection Algorithm in a hybrid VANET – LTE Architecture: Complexity and Performances, Journée Mobilité 2.0: une stratégie pour les transports intelligents, Iffstar, Versailles-Satory, 11 Février 2014.<br>
+[6]	J. Zhang, V. Gauthier, H. Labiod, H. Afifi, Cooperation Optimized Algorithm Design for Data Delivery in VANETs using Evolutionary Games Theory, Journée Futur et Ruptures, Telecom ParisTech, Paris, 30 Janvier, 2014.
+</p>
+
+<h1>Brevets</h1>
+<h2>Brevet national</h2>
+			<p>
+Identification: DI 2005-02, Titre: Dispositif et procédé de communication dans un réseau, Dépôt : 16-03-2005, Date de publication: 22.09.2006, Déposants : GET-ENST, Wavestorm.<br>
+Brevet européen : demande déposée le 13.03.2006 sous le numéro 06 726081.0 - demande publiée le 12.12.2007 sous le numéro 1864466<br>
+Brevet international : PCT/demande internationale déposée le 13.03.2006 sous le numéro PCT/FR06/00552 - Publiée le 21.09.2006 sous le numéro WO06/097615, USA.<br>
+</p>
+<h2>Brevet jp</h2>
+
+<h3>Drafts IETF</h3>
+
+			<h5>Draft mounira</h5>
+<p>
+[1]	B. Lonc, H. Labiod, F. Lonc, A. Sehrouchni, A. Kaiser, Transport Layer Security (TLS) authentication using ITS ETSI and IEEE certificates, draft-v2-tls-cert-ETSI-IEEE.txt>, June 8, 2015.<br>
+[2]	M. Badra, H. Labiod, B. Lonc, F. Lonc, A. Sehrouchni, Transport Layer Security (TLS) client authentication using IEEE 1609.2 certificate , draft-lonc-tls-certieee1609-00.txt>, February 14, 2014.<br>
+[3]	M. Tlais, H. Labiod, N. Boukhatem, Resource reservation for NEMO networks, Internet draft IETF, draft-tlais-nemo-resource-reservation-00.txt>, November 9, 2004.<br>
+[4]	M. Tlais, H. Labiod, Handoff and ressource management for multi-homed networks, Internet draft IETF, draft-tlais-nemo-handoff-resource-management-00.txt>, August 11, 2004.<br>
+[5]	H. Labiod and H. Moustafa, The Source Routing-based Multicast Protocol for Mobile Ad Hoc Networks (SRMP), Internet draft, IETF, draft-labiod-manet-srmp-00.txt, November 6, 2001.<br>
+	</p>
+<h1>Annexe Rapports HDR </h1><br><br>
+			<br>
+			<br>
+			<div class="row">
+  <div class="column">
+    <img src="1.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="2.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="3.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="4.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+ <div class="column">
+    <img src="5.png" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+  </div>
+				 <div class="column">
+    <img src="6.png" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+  </div>
+				 <div class="column">
+    <img src="7.png" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+  </div>
+				 <div class="column">
+    <img src="8.png" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="clo" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 8</div>
+      <img src="1.png" style="width:100%;height: 1000px;">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 8</div>
+      <img src="2.png" style="width:100%;height: 1000px;">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 8</div>
+      <img src="3.png" style="width:100%;height: 1000px;">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 8</div>
+      <img src="4.png" style="width:100%;height: 1000px;">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">5 / 8</div>
+      <img src="5.png" style="width:100%;height: 1000px;">
+    </div>
+	  <div class="mySlides">
+      <div class="numbertext">6 / 8</div>
+      <img src="6.png" style="width:100%;height: 1000px;">
+    </div>
+	  <div class="mySlides">
+      <div class="numbertext">7 / 8</div>
+      <img src="7.png" style="width:100%;height: 1000px;">
+    </div>
+	  <div class="mySlides">
+      <div class="numbertext">8 / 8</div>
+      <img src="8.png" style="width:100%;height: 1000px;">
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="1.png" style="width:20%" onclick="currentSlide(1)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="2.png" style="width:20%" onclick="currentSlide(2)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="3.png" style="width:20%" onclick="currentSlide(3)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="4.png" style="width:20%" onclick="currentSlide(4)" alt="">
+    </div>
+	 <div class="column">
+      <img class="demo cursor" src="5.png" style="width:20%" onclick="currentSlide(5)" alt="">
+    </div>
+	 <div class="column">
+      <img class="demo cursor" src="6.png" style="width:20%" onclick="currentSlide(6)" alt="">
+    </div>
+	 <div class="column">
+      <img class="demo cursor" src="7.png" style="width:20%" onclick="currentSlide(7)" alt="">
+    </div>
+	 <div class="column">
+      <img class="demo cursor" src="8.png" style="width:20%" onclick="currentSlide(8)" alt="">
+    </div>
+  </div>
+</div>
+</section>
+		<footer>
+		</footer>
+		<script>
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+	</body>
+</html>
